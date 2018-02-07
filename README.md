@@ -5,11 +5,11 @@
 
 ## :arrow_up: How to Setup
 
-**Step 1:** git clone this repo:
+**Step 1:** git clone this repo: ` git clone https://github.com/react-native-studio/material-elements-app.git`
 
-**Step 2:** cd to the cloned repo:
+**Step 2:** cd to the cloned repo: `cd material-elements-app`
 
-**Step 3:** Install the Application with `yarn` or `npm i`
+**Step 3:** Install the Application with `yarn` or `npm i` :`yarn install && npm install`
 
 
 ## :arrow_forward: How to Run App
