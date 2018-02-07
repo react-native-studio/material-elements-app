@@ -5387,9 +5387,9 @@ makeerror@1.0.x:
   dependencies:
     tmpl "1.0.x"
 
-material-elements@^0.0.17:
-  version "0.0.17"
-  resolved "https://registry.npmjs.org/material-elements/-/material-elements-0.0.17.tgz#225bad036207396aa8099dd89bc9434978e21fc9"
+material-elements@^0.0.19:
+  version "0.0.19"
+  resolved "https://registry.npmjs.org/material-elements/-/material-elements-0.0.19.tgz#2669f0664a302cef13336e6b86350b8a74e32ca2"
   dependencies:
     color "^1.0.3"
     lodash.merge "^4.0.0"

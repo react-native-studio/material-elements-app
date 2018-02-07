@@ -1,18 +1,13 @@
 import React,{Component} from 'react';
 import {StyleSheet,View,Text} from 'react-native';
 import PropTypes from 'prop-types';
-import ButtonExample from 'material-elements/src/METester/ButtonExample';
+import AvatarExample from 'material-elements/src/METester/AvatarExample';
 import {SimpleToolbar} from 'material-elements';
 import {StackNavigator} from 'react-navigation'
-class Button_ extends Component{
-  render(){
-    return (<ButtonExample/>)
-  }
-}
-export default class ButtonScreen extends Component{
+export default class AvatarScreen extends Component{
   NavigationActions=this.props.navigation
   static navigationOptions={
-    title:'Button'
+    title:'Avatar'
   }
   componentDidMount(){
   }
@@ -21,7 +16,7 @@ export default class ButtonScreen extends Component{
     <SimpleToolbar
       onLeftIconPress={()=>this.NavigationActions.navigate('DrawerOpen')}
       leftIcon={{name:'menu'}} title="Button"/>
-    <ButtonExample/>
+    <AvatarExample/>
   </View>)
   }
 }

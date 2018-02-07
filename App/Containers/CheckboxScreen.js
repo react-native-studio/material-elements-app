@@ -1,7 +1,8 @@
 import React,{Component} from 'react';
 import {StyleSheet,View,Text} from 'react-native';
 import PropTypes from 'prop-types';
-import ButtonExample from 'material-elements/src/METester/ButtonExample';
+import CheckboxExample from 'material-elements/src/METester/CheckboxExample';
+import RadioButtonExample from 'material-elements/src/METester/RadioButtonExample'
 import {SimpleToolbar} from 'material-elements';
 import {StackNavigator} from 'react-navigation'
 class Button_ extends Component{
@@ -9,10 +10,10 @@ class Button_ extends Component{
     return (<ButtonExample/>)
   }
 }
-export default class ButtonScreen extends Component{
+export default class CheckboxScreen extends Component{
   NavigationActions=this.props.navigation
   static navigationOptions={
-    title:'Button'
+    title:'Chexbox && Radio'
   }
   componentDidMount(){
   }
@@ -20,8 +21,9 @@ export default class ButtonScreen extends Component{
   return(<View style={{flex:1}}>
     <SimpleToolbar
       onLeftIconPress={()=>this.NavigationActions.navigate('DrawerOpen')}
-      leftIcon={{name:'menu'}} title="Button"/>
-    <ButtonExample/>
+      leftIcon={{name:'menu'}} title="Chexbox"/>
+    <CheckboxExample/>
+    <RadioButtonExample/>
   </View>)
   }
 }
