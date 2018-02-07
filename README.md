@@ -9,7 +9,7 @@
 
 **Step 2:** cd to the cloned repo: `cd material-elements-app`
 
-**Step 3:** Install the Application with `yarn` or `npm i` :`yarn install && npm install`
+**Step 3:** Install the Application with `yarn` or `npm i` :`yarn install 或者 npm install`
 
 
 ## :arrow_forward: How to Run App
