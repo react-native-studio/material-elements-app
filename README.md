@@ -21,6 +21,7 @@
   * for Android
     * Run Genymotion
     * run `react-native run-android`
+<img src="https://github.com/2534290808/react-native-android-danmaku/blob/master/images/Screenshot_1513176625.png" width = "300"  alt="图片名称" align=center />
 
 ## :no_entry_sign: Standard Compliant
 
