@@ -15,7 +15,7 @@ export default class ListItemScreen extends Component{
   return(<View style={{flex:1}}>
     <SimpleToolbar
       onLeftIconPress={()=>this.NavigationActions.navigate('DrawerOpen')}
-      leftIcon={{name:'menu'}} title="Button"/>
+      leftIcon={{name:'menu'}} title="ListItem"/>
     <Example/>
   </View>)
   }

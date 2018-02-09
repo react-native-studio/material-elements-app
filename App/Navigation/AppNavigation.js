@@ -14,6 +14,7 @@ import DialogScreen from "../Containers/DialogScreen";
 import ToolbarScreen from "../Containers/ToolbarScreen";
 import SimpleToolbarScreen from "../Containers/SimpleToolbarScreen";
 import ScrollableDrawerItems from './ScrollableDrawerItems'
+import PlaceholderScreen from "../Containers/PlaceholderScreen";
 
 // Manifest of possible screens
 const PrimaryNav = DrawerNavigator({
@@ -27,7 +28,8 @@ const PrimaryNav = DrawerNavigator({
   MENU:{screen:MenuScreen},
   DIALOG:{screen:DialogScreen},
   TOOLBAR:{screen:ToolbarScreen},
-  STOOLBAR:{screen:SimpleToolbarScreen}
+  STOOLBAR:{screen:SimpleToolbarScreen},
+  placeholder:{screen:PlaceholderScreen}
 }, {
   // Default config for all screens
   //headerMode: 'none',

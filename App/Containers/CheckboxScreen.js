@@ -21,7 +21,7 @@ export default class CheckboxScreen extends Component{
   return(<View style={{flex:1}}>
     <SimpleToolbar
       onLeftIconPress={()=>this.NavigationActions.navigate('DrawerOpen')}
-      leftIcon={{name:'menu'}} title="Chexbox"/>
+      leftIcon={{name:'menu'}} title="Chexbox && Radio"/>
     <CheckboxExample/>
     <RadioButtonExample/>
   </View>)

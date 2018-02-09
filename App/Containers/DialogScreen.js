@@ -15,7 +15,7 @@ export default class DialogScreen extends Component{
   return(<View style={{flex:1}}>
     <SimpleToolbar
       onLeftIconPress={()=>this.NavigationActions.navigate('DrawerOpen')}
-      leftIcon={{name:'menu'}} title="Button"/>
+      leftIcon={{name:'menu'}} title="Dialog"/>
     <Example/>
   </View>)
   }

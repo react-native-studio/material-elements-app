@@ -15,7 +15,7 @@ export default class MenuScreen extends Component{
   return(<View style={{flex:1}}>
     <SimpleToolbar
       onLeftIconPress={()=>this.NavigationActions.navigate('DrawerOpen')}
-      leftIcon={{name:'menu'}} title="Button"/>
+      leftIcon={{name:'menu'}} title="Menu"/>
     <Example/>
   </View>)
   }
