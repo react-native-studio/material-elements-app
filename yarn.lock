@@ -3627,6 +3627,10 @@ flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
+flow-bin@^0.67.1:
+  version "0.67.1"
+  resolved "https://registry.npmjs.org/flow-bin/-/flow-bin-0.67.1.tgz#eabb7197cce870ac9442cfd04251c7ddc30377db"
+
 flush-write-stream@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/flush-write-stream/-/flush-write-stream-1.0.2.tgz#c81b90d8746766f1a609a46809946c45dd8ae417"
