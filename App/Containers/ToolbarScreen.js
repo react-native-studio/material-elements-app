@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import {StyleSheet,View,Text} from 'react-native';
 import PropTypes from 'prop-types';
-import Example from 'material-elements/src/METester/ToolbarExample';
-import {SimpleToolbar} from 'material-elements';
+import Example from '../Lib/material-elements/src/METester/ToolbarExample';
+import {SimpleToolbar} from '../Lib/material-elements/src/index';
 import {StackNavigator} from 'react-navigation'
 export default class ToolbarScreen extends Component{
   NavigationActions=this.props.navigation
