@@ -17,6 +17,7 @@ import ScrollableDrawerItems from './ScrollableDrawerItems'
 import PlaceholderScreen from "../Containers/PlaceholderScreen";
 import IndicatorScreen from "../Containers/IndicatorScreen";
 import BadgeScreen from "../Containers/BadgeScreen";
+import TypographyScreen from "../Containers/TypographyScreen";
 
 // Manifest of possible screens
 const PrimaryNav = DrawerNavigator({
@@ -33,7 +34,8 @@ const PrimaryNav = DrawerNavigator({
   STOOLBAR:{screen:SimpleToolbarScreen},
   placeholder:{screen:PlaceholderScreen},
   Indicator:{screen:IndicatorScreen},
-  Badge:{screen:BadgeScreen}
+  Badge:{screen:BadgeScreen},
+  Typography:{screen:TypographyScreen}
 }, {
   // Default config for all screens
   //headerMode: 'none',
