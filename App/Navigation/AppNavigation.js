@@ -18,6 +18,7 @@ import PlaceholderScreen from "../Containers/PlaceholderScreen";
 import IndicatorScreen from "../Containers/IndicatorScreen";
 import BadgeScreen from "../Containers/BadgeScreen";
 import TypographyScreen from "../Containers/TypographyScreen";
+import SteppersScreen from "../Containers/SteppersScreen";
 
 // Manifest of possible screens
 const PrimaryNav = DrawerNavigator({
@@ -35,7 +36,8 @@ const PrimaryNav = DrawerNavigator({
   placeholder:{screen:PlaceholderScreen},
   Indicator:{screen:IndicatorScreen},
   Badge:{screen:BadgeScreen},
-  Typography:{screen:TypographyScreen}
+  Typography:{screen:TypographyScreen},
+  Stepper:{screen:SteppersScreen}
 }, {
   // Default config for all screens
   //headerMode: 'none',

@@ -18,7 +18,7 @@ export default class ButtonScreen extends Component{
   }
   render(){
   return(<View style={{flex:1}}>
-    <SimpleToolbar
+    <SimpleToolbar center
       onLeftIconPress={()=>this.NavigationActions.navigate('DrawerOpen')}
       leftIcon={{name:'menu'}} title="Button"/>
     <ButtonExample/>
