@@ -11,7 +11,7 @@
 
 **Step 3:** Install the Application with `yarn` or `npm i` :`yarn install 或者 npm install`
 
-**Step4:** excute `git submobule init` and `git submodule update`
+**Step4:** excute `git submodule init` and `git submodule update`
 
 
 ## :arrow_forward: How to Run App
