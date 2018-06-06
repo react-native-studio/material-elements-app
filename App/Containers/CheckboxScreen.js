@@ -1,9 +1,9 @@
 import React,{Component} from 'react';
 import {StyleSheet,View,Text} from 'react-native';
 import PropTypes from 'prop-types';
-import CheckboxExample from '../Lib/material-elements/src/METester/CheckboxExample';
-import RadioButtonExample from '../Lib/material-elements/src/METester/RadioButtonExample'
-import {SimpleToolbar} from '../Lib/material-elements/src/index';
+import CheckboxExample from '../Lib/elements/src/METester/CheckboxExample';
+import RadioButtonExample from '../Lib/elements/src/METester/RadioButtonExample'
+import {SimpleToolbar} from '../Lib/elements/src/index';
 import {StackNavigator} from 'react-navigation'
 class Button_ extends Component{
   render(){

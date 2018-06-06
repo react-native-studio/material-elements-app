@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import {StyleSheet,View,Text} from 'react-native';
 import PropTypes from 'prop-types';
-import ToastExample from '../Lib/material-elements/src/METester/ToastExample';
-import {SimpleToolbar} from '../Lib/material-elements/src/index';
+import ToastExample from '../Lib/elements/src/METester/ToastExample';
+import {SimpleToolbar} from '../Lib/elements/src/index';
 import {StackNavigator} from 'react-navigation'
 export default class ToastScreen extends Component{
   NavigationActions=this.props.navigation
