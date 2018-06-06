@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import {StyleSheet,View,Text,ScrollView} from 'react-native';
 import PropTypes from 'prop-types';
-import Example from '../Lib/material-elements/src/METester/PlaceHolderExample';
-import {SimpleToolbar} from '../Lib/material-elements/src/index';
+import Example from '../Lib/elements/src/METester/PlaceHolderExample';
+import {SimpleToolbar} from '../Lib/elements/src/index';
 import {StackNavigator} from 'react-navigation'
 export default class PlaceholderScreen extends Component{
   NavigationActions=this.props.navigation

@@ -1,0 +1,4 @@
+
+[submodule "App/Lib/elements"]
+	path = App/Lib/elements
+	url = https://github.com/react-native-studio/material-elements.git

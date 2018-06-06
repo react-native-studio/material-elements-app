@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import {StyleSheet,View,Text} from 'react-native';
 import PropTypes from 'prop-types';
-import Example from '../Lib/material-elements/src/METester/IndicatorExample';
-import {SimpleToolbar} from '../Lib/material-elements/src/index';
+import Example from '../Lib/elements/src/METester/IndicatorExample';
+import {SimpleToolbar} from '../Lib/elements/src/index';
 import {StackNavigator} from 'react-navigation'
 export default class IndicatorScreen extends Component{
   NavigationActions=this.props.navigation

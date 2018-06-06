@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import {StyleSheet,View,Text} from 'react-native';
 import PropTypes from 'prop-types';
-import ButtonExample from '../Lib/material-elements/src/METester/ButtonExample';
-import {SimpleToolbar} from '../Lib/material-elements/src/index';
+import ButtonExample from '../Lib/elements/src/METester/ButtonExample';
+import {SimpleToolbar} from '../Lib/elements/src/index';
 import {StackNavigator} from 'react-navigation'
 class Button_ extends Component{
   render(){

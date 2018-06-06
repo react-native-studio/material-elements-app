@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import {StyleSheet,View,Text} from 'react-native';
 import PropTypes from 'prop-types';
-import AvatarExample from '../Lib/material-elements/src/METester/AvatarExample';
-import {SimpleToolbar} from '../Lib/material-elements/src/index';
+import AvatarExample from '../Lib/elements/src/METester/AvatarExample';
+import {SimpleToolbar} from '../Lib/elements/src/index';
 import {StackNavigator} from 'react-navigation'
 export default class AvatarScreen extends Component{
   NavigationActions=this.props.navigation
